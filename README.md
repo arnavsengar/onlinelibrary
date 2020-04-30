@@ -13,7 +13,7 @@
 
 <b>How to run this project</b>
 
-1.Create MySQL Database name employee with password and username both root. 
+1.Create MySQL Database on port 3333 name employee with password and username both root. 
 
 2.Execute these 2 queries for making table:
 
@@ -53,82 +53,124 @@ User
   
 1.Data Flow Diagram
  
-
+![](images2/dataflow.png)
 
 2.Activity Diagrams
 
-•	Login Process
+•	Login Process:
  
-•	Registration Process :
+ ![](images2/loginproccess.png)
  
-•	Login Activity
+•	Registration Process:
  
-•	Admin Login Activity
+ ![](images2/regproccess.png)
+ 
+•	Login Activity:
+ 
+ ![](images2/loginactivity.png)
+ 
+•	Admin Login Activity:
+
+![](images2/loginactivityadmin.png)
  
 OUTPUT SCREENS
 
 Welcome Page
  
+ ![](images2/Front.png)
 
 Menu For Options when you hover on Menu 
 
+![](images2/Menu.png)
+
 When you Click on About Us in Menu About Us Page shows up
  
+ ![](images2/AboutUs.png)
 
 When you Click on Contact Us in Menu Contact Us section shows up
  
+ ![](images2/ContactUs.png)
 
 When you Click on BOOKS in Menu Books table from database shows up 
+
+![](images2/BooksShow.png)
+
 When You Click on Administrator in Menu Admin Login Page comes
+
+![](images2/AdminLogin.png)
  
 When You Fill wrong username or Password and submit
  
+ ![](images2/WrongDetailsAdmin.png)
+ 
 When You Fill correct username & Password and submit
  
+![](images2/Adminfrontwithmenu.png)
 
 When You Click on View Users in Admin Menu
+
+![](images2/ViewUsers.png)
  
 When You Click on Add Books in Admin Menu
  
+![](images2/AddBook.png)
 
 Enter Details
 Click on Submit And You Added a Book
  
+ ![](images2/AddedBook.png)
+ 
 When You Click on Delete Books in Admin Menu
  
+![](images2/RemoveBook.png)
 
 Enter Book ID
 Click on Submit And You Deleted a Book 
+
+![](images2/RemoveddBook.png)
+
 When You Click on Logout in Admin Menu You will be back in HomePage
  
+![](images2/Menu.png)
 
 When you Click on Library Member in Menu Member Login Page shows up
  
+ ![](images2/librarymemberlogin.png)
 
 When you Click on NEW USER REGISTRATION in Login Page Registration page opens up
+
+![](images2/NewRegistration.png)
  
 Fill the Details and Click on Submit
+
+![](images2/Successful.png)
  
 On Login Page Fill The Wrong Details Ans Hit Submit
+
+![](images2/WrongDetailsAdmin.png)
  
 When You Enter the Correct details and login
  
+ ![](images2/logged.png)
 
 Enter the Book Id and click on Issue Submit 
 
+![](images2/issuedabookalert.png)
+
 When you enter A book ID which is Already is been Issued or any other id
+ 
+ ![](images2/WrongDetailsAdmin.png)
  
 Enter the Book Id and click on Return Submit
  
+![](images2/returnabookalert.png)
 
 Enter Your Current Password and The new password you want to keep And hit the change Password
  
-
-
-
-
+![](images2/changepassword.png)
 
 When you enter incorrect password
+
+![](images2/WrongDetailsAdmin.png)
+
  </b>
-
-
